@@ -1,0 +1,577 @@
+{
+  "worldName": "custom",
+  "options": {
+    "imageURL": "data:image/jpeg;base64,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",
+    "groundType": "box",
+    "length": 100,
+    "width": 100,
+    "uScale": 1.2,
+    "vScale": 0.25,
+    "imageScale": 10,
+    "timer": "none",
+    "timerDuration": 60,
+    "timerEnd": "continue",
+    "wall": true,
+    "wallHeight": 7.7,
+    "wallThickness": 4.5,
+    "wallColor": "#1A1A1A",
+    "groundFriction": 1,
+    "wallFriction": 0.1,
+    "groundRestitution": 0,
+    "wallRestitution": 0.1,
+    "restartAnimationOnRun": false,
+    "objects": [
+      {
+        "type": "model",
+        "position": [
+          150,
+          -0.25870990397135074,
+          -5
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "animationMode": "none",
+        "animationKeys": [],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "modelURL": "models/Kenny.nl - Fantasy Town/wallWoodBlock.glb",
+        "modelScale": 45,
+        "modelAnimation": "None",
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "receiveShadows": false,
+        "castShadows": false,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "position": [
+          -100,
+          -15,
+          -2
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "animationMode": "none",
+        "animationKeys": [],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "modelURL": "models/Kenny.nl - Nature/cliff_block_stone.glb",
+        "modelScale": 10,
+        "modelAnimation": "None",
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "receiveShadows": false,
+        "castShadows": false,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "position": [
+          -85,
+          -0.657781179781221,
+          -2
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "animationMode": "none",
+        "animationKeys": [],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "modelURL": "models/Kenny.nl - Nature/cliff_block_stone.glb",
+        "modelScale": 10,
+        "modelAnimation": "None",
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "receiveShadows": false,
+        "castShadows": false,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "position": [
+          19.904971701203813,
+          -14.179674023533344,
+          -2.1989930274190357
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          -70,
+          -90,
+          -50
+        ],
+        "animationMode": "none",
+        "animationKeys": [],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "modelURL": "models/Kenny.nl - Nature/cliff_block_stone.glb",
+        "modelScale": 10,
+        "modelAnimation": "None",
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "receiveShadows": false,
+        "castShadows": false,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "position": [
+          22,
+          15.588151540502366,
+          -4
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          65,
+          -145,
+          75
+        ],
+        "animationMode": "none",
+        "animationKeys": [],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "modelURL": "models/Kenny.nl - Nature/cliff_block_stone.glb",
+        "modelScale": 10,
+        "modelAnimation": "None",
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "receiveShadows": false,
+        "castShadows": false,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "position": [
+          41.209235665595564,
+          0,
+          -5
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          -30,
+          -70,
+          -15
+        ],
+        "animationMode": "none",
+        "animationKeys": [],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "modelURL": "models/Kenny.nl - Nature/cliff_block_stone.glb",
+        "modelScale": 10,
+        "modelAnimation": "None",
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "receiveShadows": false,
+        "castShadows": false,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "position": [
+          56.00295099338789,
+          -15.632206923351873,
+          -2
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          70,
+          50,
+          55
+        ],
+        "animationMode": "none",
+        "animationKeys": [],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "modelURL": "models/Kenny.nl - Nature/cliff_block_stone.glb",
+        "modelScale": 10,
+        "modelAnimation": "None",
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "receiveShadows": false,
+        "castShadows": false,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "position": [
+          53.050856078496324,
+          16.956891072648148,
+          -1.2913886979765579
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          150,
+          -15,
+          -105
+        ],
+        "animationMode": "none",
+        "animationKeys": [],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "modelURL": "models/Kenny.nl - Nature/cliff_block_stone.glb",
+        "modelScale": 10,
+        "modelAnimation": "None",
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "receiveShadows": false,
+        "castShadows": false,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "position": [
+          110.08276034894875,
+          1.8217956070324277,
+          -24.482921632201858
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          20
+        ],
+        "animationMode": "none",
+        "animationKeys": [],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "modelURL": "models/Kenny.nl - Nature/cliff_block_stone.glb",
+        "modelScale": 65,
+        "modelAnimation": "None",
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "receiveShadows": false,
+        "castShadows": false,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "position": [
+          63.54304636613819,
+          0,
+          -3
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "animationMode": "none",
+        "animationKeys": [],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "modelURL": "models/Kenny.nl - Nature/cliff_block_stone.glb",
+        "modelScale": 10,
+        "modelAnimation": "None",
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "receiveShadows": false,
+        "castShadows": false,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "position": [
+          -24,
+          0.042841008753779164,
+          -11
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "animationMode": "none",
+        "animationKeys": [],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "modelURL": "models/Kenny.nl - Nature/cliff_block_stone.glb",
+        "modelScale": 25,
+        "modelAnimation": "None",
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "receiveShadows": false,
+        "castShadows": false,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "position": [
+          -100,
+          15,
+          -2
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "animationMode": "none",
+        "animationKeys": [],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "modelURL": "models/Kenny.nl - Nature/cliff_block_stone.glb",
+        "modelScale": 10,
+        "modelAnimation": "None",
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "receiveShadows": false,
+        "castShadows": false,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "position": [
+          -46,
+          0.042841008753779164,
+          -11
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "animationMode": "none",
+        "animationKeys": [],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "modelURL": "models/Kenny.nl - Nature/cliff_block_stone.glb",
+        "modelScale": 25,
+        "modelAnimation": "None",
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "receiveShadows": false,
+        "castShadows": false,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "position": [
+          -1,
+          0.042841008753779164,
+          -11
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "animationMode": "none",
+        "animationKeys": [],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "modelURL": "models/Kenny.nl - Nature/cliff_block_stone.glb",
+        "modelScale": 25,
+        "modelAnimation": "None",
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "receiveShadows": false,
+        "castShadows": false,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "position": [
+          -60,
+          0,
+          6
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "animationMode": "none",
+        "animationKeys": [],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "modelURL": "models/Kenny.nl - Fantasy Town/wallWood.glb",
+        "modelScale": 12,
+        "modelAnimation": "None",
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "receiveShadows": false,
+        "castShadows": false,
+        "isPickable": true
+      }
+    ],
+    "startPos": "center",
+    "startPosXYZStr": "",
+    "startRotStr": "",
+    "startPosXYZ": [
+      -122,
+      0,
+      0
+    ],
+    "startRot": 90,
+    "arenaStartPosXYZ": null,
+    "arenaStartRot": null
+  }
+}

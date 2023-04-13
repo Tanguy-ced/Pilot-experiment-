@@ -1,0 +1,152 @@
+{
+  "name": "forklift",
+  "shortDescription": "forklift",
+  "longDescription": "<p>Custom robot created in the configurator.</p>",
+  "longerDescription": "<h3>#robot-dimensions#</h3><ul><li>#robot-wheelDiameter#: 5.6 cm</li><li>#robot-wheelSpacing#: 15.2 cm</li></ul><h3>#robot-actuators#</h3><ul></ul><h3>#robot-sensors#</h3><ul></ul>",
+  "thumbnail": "",
+  "bodyHeight": 4,
+  "bodyWidth": 14,
+  "bodyLength": 16,
+  "wheelDiameter": 7.6,
+  "wheelWidth": 0.8,
+  "wheelToBodyOffset": 0.2,
+  "wheelMaxAcceleration": 0.2,
+  "wheelStopActionHoldForce": 3000,
+  "wheelTireDownwardsForce": -40000,
+  "bodyEdgeToWheelCenterY": 1,
+  "bodyEdgeToWheelCenterZ": 2,
+  "bodyMass": 1000,
+  "wheelMass": 200,
+  "casterMass": 0,
+  "wheelFriction": 3,
+  "bodyFriction": 0,
+  "casterFriction": 0,
+  "color": "#F09C0D",
+  "imageType": "all",
+  "imageURL": "",
+  "components": [
+    {
+      "type": "LinearActuator",
+      "position": [
+        0,
+        6,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        1.5707963267948966
+      ],
+      "components": [
+        {
+          "type": "Box",
+          "position": [
+            -1,
+            7,
+            5.5
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "options": {
+            "height": 1,
+            "width": 1,
+            "depth": 13,
+            "color": "#737373ff",
+            "imageType": "repeat",
+            "imageURL": "",
+            "uScale": 1,
+            "vScale": 1
+          }
+        },
+        {
+          "type": "Box",
+          "position": [
+            -1,
+            -7,
+            5.5
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "options": {
+            "height": 1,
+            "width": 1,
+            "depth": 13,
+            "color": "#737373ff",
+            "imageType": "repeat",
+            "imageURL": "",
+            "uScale": 1,
+            "vScale": 1
+          }
+        },
+        {
+          "type": "Box",
+          "position": [
+            1.1969166993451943,
+            0.015896882480007285,
+            1
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "options": {
+            "height": 11,
+            "width": 5,
+            "depth": 1,
+            "color": "A3CF0D",
+            "imageType": "repeat",
+            "imageURL": "textures/box/cautionSquare.png",
+            "uScale": 1,
+            "vScale": 1
+          }
+        }
+      ],
+      "options": {
+        "mass": 100,
+        "restitution": 0.1,
+        "friction": 1,
+        "degreesPerCm": 360,
+        "width": 2,
+        "baseLength": 18,
+        "baseThickness": 1,
+        "platformLength": 2,
+        "platformThickness": 1,
+        "platformColor": "808080",
+        "max": 9,
+        "min": -9,
+        "startPos": -8,
+        "baseColor": "A39C0D"
+      }
+    },
+    {
+      "type": "Sphere",
+      "position": [
+        -0.22276317400600842,
+        -1.5573152042020069,
+        -5.1551332985281935
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "options": {
+        "diameter": 4,
+        "color": "A3CF0D",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1
+      }
+    }
+  ],
+  "options": {},
+  "caster": false
+}
